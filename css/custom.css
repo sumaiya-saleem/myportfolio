@@ -1,0 +1,320 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.title-head {
+}
+
+.nav-item {
+	color: black;
+	font-weight: 400;
+	padding-bottom: 0px;
+}
+
+.nav-link {
+	padding-bottom: 0px;
+}
+
+.active {
+	padding-bottom: 0px;
+	border-bottom: solid 4px #fd9c00;
+}
+
+
+.navbar-brand.logo {
+	color: black;
+	font-weight: 600;
+}
+
+
+body {
+	font-family: 'lato', sans-serif;
+	font-weight: 100;
+}
+
+
+.about-body {
+	font-size: 1em;
+	margin-bottom: 0;
+	padding-bottom: 10px;
+}
+
+.pre-head {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.description{
+	
+}
+
+#type {
+	font-family: 'playfair-display';
+	font-weight: 600;
+	font-size: 3em;
+	display: inline-block;
+	color: rgb (51, 51, 51);
+	
+}
+
+#header{ 
+	font-family: 'playfair-display';
+	font-size: 2.5em;
+	display: inline-block;
+	color: rgb (51, 51, 51);
+	font-weight: 600;
+
+}
+
+#typeabout {
+	font-family: 'playfair-display';
+	font-weight: 600;
+	font-size: 2.2em;
+	display: inline-block;
+	text-align: center;
+	
+}
+
+#typecontact {
+	font-family: 'playfair-display';
+	font-weight: 600;
+	font-size: 1.5em;
+	display: inline-block;
+	text-align: center;
+	color: #333;
+	
+}
+.project-heading {
+	font-size: 1.2em;
+	font-weight: 600;
+	color: #333;
+}
+
+.card-img-overlay {
+	position: absolute;
+	bottom:0;
+	left:0;
+
+}
+
+.bottom-text {
+	position: absolute;
+	bottom:0;
+	color: ghostwhite;
+	font-size: 2em;
+	padding-bottom: 2;
+	text-shadow: 0 2px 5px rgba(0,0,0,.5);
+}
+
+.subtext {
+	font-size: 1em;
+	padding-bottom: 1;
+}
+
+.card, .card img{
+	border-radius: 0px;
+	border: none;
+}
+
+.card a {
+	font-weight: 200;
+}
+
+.card{
+    opacity: 1;
+   transition: opacity .5s ease-in-out;
+   -moz-transition: opacity .5s ease-in-out;
+   -webkit-transition: opacity .5s ease-in-out;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+	text-align: center;
+    align: center;
+    display: inline-block;
+}
+
+.button-edit {
+	background-color: #030303;
+	border:  solid 2px #030303;
+	border-radius: 40px;
+	color: white;
+	font-weight: 600;
+	font-family: "playfair-display";
+	font-size: 1.2em;
+}
+
+.button-edit:hover {
+	background-color: #fd9c00;
+	color: whitesmoke;
+	border:  solid 2px #fd9c00;
+}
+
+.contact-button {
+	padding: 10px;
+	padding-top: 0px;
+
+}
+
+
+.contact-button:hover {
+	opacity: 0.9;
+}
+
+
+.pdf-packages {
+	float: none;
+	margin: 0 auto;
+	text-align: center;
+    align: center;
+    display: inline-block;
+	
+}
+
+.pdf-packages embed {
+	padding: 5px;
+}
+
+.sub {
+	font-size: 1.4em;
+	font-weight: 400;
+	color: #333;
+}
+
+.sub a {
+	color: #333;
+}
+
+.container-width {
+	max-width: 800px;
+	justify-content: center;
+}
+
+.container-width-about {
+	max-width: 600px;
+	justify-content: center;
+}
+
+a {
+	color: #232323;
+	font-weight: 600;
+}
+
+a:hover {
+	color: #fd9c00;
+	text-decoration: none;
+}
+
+.zoom-image {
+	  box-shadow: 0 1px 1px rgba(0,0,0,.2);
+}
+
+.zoom-image:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+  transition: .4s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,.5);
+  cursor: pointer;
+}
+
+.card-home {
+  position: relative;
+}
+
+#hidden {
+	/*visibility: hidden;*/
+}
+.overlay-home {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000000;
+}
+
+.card-home:hover .overlay-home {
+  opacity: 0.9;
+}
+
+.text-home {
+  color: white;
+  font-size: 1.5em;
+  text-shadow: 0 2px 5px rgba(0,0,0,.5);
+  line-height: normal;
+  font-weight: bolder;
+  float: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: roboto, sans-serif;
+}
+
+
+.contact-text {
+	font-size: 1.5em;
+	top: 50%;
+	left: 50%;
+	align: center;
+	width: 40%;
+	text-align: center;
+	font-weight: 500;
+	
+
+}
+
+#headcontact {
+	font-family: 'playfair-display';
+	font-size: 1.5em;
+	display: inline-block;
+	color: #333;
+	font-weight: 600;
+
+}
+
+.image-text {
+  position: relative;
+  text-align: left;
+  color: ghostwhite;
+  width: 100%;
+}
+
+.top-left {
+  position: absolute;
+  top: 80px;
+  left: 25px;
+  font-size: 2.3em;
+  line-height: normal;
+  text-shadow: 0 2px 5px rgba(0,0,0,.7);
+  cursor:default;
+
+}
+
+.jumbotron {
+	background-color: white;
+	margin-bottom: 0px;
+}
+
+.alignleft {
+	float: left;
+	font-size: 0.8em;
+	color: grey;
+}
+.alignright {
+	float: right;
+}
+
+.alignright2 {
+	float: right;
+	padding-right: 10px;
+}
