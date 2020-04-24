@@ -59,9 +59,11 @@ body {
 #type {
 	font-family: 'playfair-display';
 	font-weight: 600;
-	font-size: 2.8em;
+	font-size: 2.6em;
 	display: inline-block;
 	color: rgb (51, 51, 51);
+	text-align: center;
+	
 	
 }
 
@@ -231,9 +233,11 @@ li {
 }
 
 .sub {
-	font-size: 1.4em;
+	font-size: 1.2em;
 	font-weight: 400;
 	color: #333;
+	text-align: center;
+	margin: auto;
 }
 
 .sub a {
