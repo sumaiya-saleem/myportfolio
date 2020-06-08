@@ -23,7 +23,7 @@
 }
 
 .highlight {
-	background-color: #FFD1D1;
+	background-color: #FFDEA8;
 	width: relative;
 }
 
@@ -226,7 +226,7 @@ li {
 	background-color: #D0C9F8;
 }
 .breadpledge {
-	background-color: #FF8172;
+	background-color: #FF998D;
 }
 .prepr {
 	background-color: #C0E6CD;
@@ -267,7 +267,12 @@ li {
   .card-new img{
     max-height: 150px;
   }
-	.card-new h3, .card-new p {
+	.card-new h3 {
+		font-size: 1em;
+	}
+	
+	.card-new p {
+		font-size:0.5em;
 	}
 }
 
