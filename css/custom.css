@@ -18,11 +18,16 @@
 
 .active {
 	padding-bottom: 0px;
-	border-bottom: solid 3px #fd9c00;
+	border-bottom: solid 3px #FE556C;
 	font-weight: 700;
 }
 
 .highlight {
+	background-color: #FFD1D1;
+	width: relative;
+}
+
+.blue-highlight {
 	background-color: #FFDEA8;
 	width: relative;
 }
@@ -71,7 +76,7 @@ body {
 	font-family: 'playfair-display';
 	font-size: 2.5em;
 	display: inline-block;
-	color: rgb (51, 51, 51);
+	color: rgba(51, 51, 51);
 	font-weight: 600;
 	text-align: center;
 	margin-top: 50px;
@@ -111,6 +116,7 @@ h4 {
 h5 {
 	font-size: 1.1em;
 	font-style: italic;
+	font-weight: 600;
 }
 
 .img-wireframes {
@@ -193,7 +199,7 @@ li {
 	padding-bottom: 1;
 }
 
-.card, .card img{
+.card {
 	border-radius: 10px;
 	border: none;
 }
@@ -207,6 +213,90 @@ li {
    transition: opacity .5s ease-in-out;
    -moz-transition: opacity .5s ease-in-out;
    -webkit-transition: opacity .5s ease-in-out;
+}
+
+.card-new {
+	background-color: #F6F6FB;
+	min-height: 150px;
+
+}
+
+/* background colours for home buttons */
+.voicemail {
+	background-color: #D0C9F8;
+}
+.breadpledge {
+	background-color: #FF8172;
+}
+.prepr {
+	background-color: #C0E6CD;
+}
+.elph {
+	background-color: #C9E1F8;
+}
+.glowbeauty {
+	background-color:#FFE2F1;
+}
+.divercity {
+	background-color:#F5E7DC;
+}
+/* bg end */
+
+.card-new a {
+	color: #0B0B0B;
+}
+
+.card-new a:hover {
+	color: white;
+}
+
+.card-new:hover {
+	background-color: #1B1B1B;
+	color: #F6F6F6;
+	transition: 0.5s;
+}
+
+
+.card-new img {
+	float: right;
+	max-height: 220px;
+	padding: 20px 10px 0px ;
+}
+
+@media screen and (max-width: 1200px) {
+  .card-new img{
+    max-height: 150px;
+  }
+	.card-new h3, .card-new p {
+	}
+}
+
+@media screen and (max-width: 991px) {
+  .card-new img{
+  }
+}
+
+.card-new h3 {
+	font-family: 'playfair-display';
+	font-weight: 600;
+	position: absolute;
+	bottom:0;
+	font-size: 1.5em;
+	padding-left: 20px;
+	padding-bottom: 25px;
+	max-width: 270px;
+}
+
+.card-new p {
+	font-weight: 300;
+	font-size: 1.1em;
+	position: absolute;
+	bottom:0;
+	padding-left:20px;
+}
+
+.card-new h3, .card-new p {
+	margin-bottom: 30px;
 }
 
 .col-centered{
@@ -228,9 +318,9 @@ li {
 }
 
 .button-edit:hover {
-	background-color: #fd9c00;
+	background-color: #FE556C;
 	color: whitesmoke;
-	border:  solid 2px #fd9c00;
+	border:  solid 2px #FE556C;
 }
 
 .contact-button {
@@ -315,7 +405,7 @@ a {
 }
 
 a:hover {
-	color: #fd9c00;
+	color: #FE556C;
 	text-decoration: none;
 }
 
@@ -332,9 +422,14 @@ a:hover {
   cursor: pointer;
 }
 
+.vm-vid {
+
+}
+
 .card-home {
   position: relative;
 }
+
 
 #hidden {
 	/*visibility: hidden;*/
