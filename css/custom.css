@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
 .title-head {
 }
 
@@ -8,7 +9,7 @@
 	color: black;
 	font-weight: 400;
 	padding-bottom: 0px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Helvetica Neue', Helvetica, Arial, 'sans-serif'sans-serif;
 
 }
 
@@ -18,12 +19,12 @@
 
 .active {
 	padding-bottom: 0px;
-	border-bottom: solid 3px #FE556C;
-	font-weight: 700;
+	border-bottom: solid 3px #283352;
+	font-weight: 600;
 }
 
 .highlight {
-	background-color: #FFDEA8;
+	background-color: #D6D6F4;
 	width: relative;
 }
 
@@ -44,8 +45,10 @@
 
 
 body {
-	font-family: 'Lato', sans-serif;
-	font-weight: 200;	
+	font-family: 'Helvetica', 'lato', 'sans-serif';
+	font-weight: 100;	
+	background-color: #fdfdfd;
+
 }
 
 
@@ -63,10 +66,10 @@ body {
 
 #type {
 	font-family: 'playfair-display';
-	font-weight: 600;
-	font-size: 2.6em;
+	font-weight: 900;
+	font-size: 2.8em;
 	display: inline-block;
-	color: rgb (51, 51, 51);
+	color: rgb(51, 53, 47);
 	text-align: center;
 	
 	
@@ -127,11 +130,15 @@ h5 {
 	margin: auto;
 	margin-top: 2em;
 	justify-content: center;
+	display: inline-flex;
 	
 }
 
 .bp-wireframes p {
 	margin-left: 2em;
+}
+
+.bp-wireframes img {
 }
 
 .flow-img {
@@ -200,8 +207,9 @@ li {
 }
 
 .card {
-	border-radius: 10px;
+	border-radius: 16px;
 	border: none;
+box-shadow: 1px 1px 2px 0 rgba(220, 160, 129, 0.2)
 }
 
 .card a {
@@ -222,7 +230,7 @@ li {
 }
 
 /* background colours for home buttons */
-.voicemail {
+/*.voicemail {
 	background-color: #D0C9F8;
 }
 .breadpledge {
@@ -233,6 +241,25 @@ li {
 }
 .elph {
 	background-color: #C9E1F8;
+}
+.glowbeauty {
+	background-color:#FFE2F1;
+}
+.divercity {
+	background-color:#F5E7DC;
+}*/
+
+.voicemail {
+	background-color: #d0c9f8;
+}
+.breadpledge {
+	background-color: #FF998D;
+}
+.prepr {
+	background-color: #C0E6CD;
+}
+.elph {
+	background-color: #cddafd;
 }
 .glowbeauty {
 	background-color:#FFE2F1;
@@ -279,6 +306,21 @@ li {
 @media screen and (max-width: 991px) {
   .card-new img{
   }
+}
+
+@media screen and (max-width: 430px) {
+	
+	.card-new h3 {
+		font-size: 1.5em!important;
+	}
+	
+	.card-new p {
+		font-size: 1em!important;
+	}
+	
+	.card-new img {
+		display:none;
+	}
 }
 
 .card-new h3 {
@@ -410,7 +452,7 @@ a {
 }
 
 a:hover {
-	color: #FE556C;
+	color: #283352;
 	text-decoration: none;
 }
 
@@ -520,7 +562,7 @@ a:hover {
 }
 
 .jumbotron {
-	background-color: white;
+	background-color: #fdfdfd;
 	margin-bottom: 0px;
 }
 
